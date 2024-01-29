@@ -2,10 +2,10 @@ E = []
 L1 = [1, 2, 3, 4, 5]
 L2 = [1, 'a', True]
 
-print(L1)
+print(f"L1 array/list {L1}")
 
 # indexing
-print(L1[0])
+print(f"index 0 L1[0] {L1[0]}")
 
 # slicing
 # [start:step:end]
