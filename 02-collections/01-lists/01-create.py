@@ -1,27 +1,23 @@
+# empty list
+L = list()
 E = []
+# list with values
 L1 = [1, 2, 3, 4, 5]
+# list with different types
 L2 = [1, 'a', True]
+
+# range
+L3 = list(range(1,10))
+print(f"List range <1,10) (inclusive,exclusive) {L3}")
+
+L4 = list(range(10))
+print(f"List range <0,10) (inclusive,exclusive) {L4}")
+
+
 
 print(f"L1 array/list {L1}")
 
-# indexing
-print(f"index 0 L1[0] {L1[0]}")
 
-# slicing
-# [start:step:end]
-print(f'slice L1[0:1] {L1[0:1]}')
-
-# out of range
-print(L1[2:7])
-# 0 -> 2
-print(L1[:2])
-# 2 -> end
-print(L1[2:])
-# backwards
-print(L1[-3:-1])
-# 0 -> len(5)-1
-print(L1[:-1])
-print(L1[0:len(L1)-1])
 
 # 2D (matrix)
 m = [
