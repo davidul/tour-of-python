@@ -1,5 +1,12 @@
 # Python walkaround
 
+## Installation
+Virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 Fast walkaround of Python.
 
 - variables
@@ -19,7 +26,7 @@ Use square brackets to create a list in Python.
 
 Here are some common list methods in Python:
 
-- append() - adds an element to the end of the list.
+- append() - adds an element to the end of the list. Important: this method modifies the original list.
 - extend() - extends the list with elements from another iterable object, such as a string or another list.
 - insert() - inserts an element at a specific index in the list.
 - pop() - removes and returns the last element in the list.
@@ -30,7 +37,9 @@ Here are some common list methods in Python:
 
 You can also use list comprehension to create a list with specific values or conditions. For example:
 
+```python
 my_list = [x**2 for x in range(1, 5)] # Output: [1, 4, 9]
+```
 
 ### Dictionary
 Here are some common dictionary methods in Python:
