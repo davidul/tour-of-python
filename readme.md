@@ -7,6 +7,32 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+## Underscores
+
+ - Single underscore `_` is used to indicate that a variable is temporary or insignificant.
+ - Double underscore `__` is used to mangle class attributes.
+ - Double underscore prefix and suffix `__var__` is used for special variables or methods (so-called “magic methods”).
+ - Single underscore prefix `_var` is used to indicate that a variable or method is intended for internal use.
+ - Single underscore suffix `var_` is sometimes used to avoid naming conflicts with Python keywords.
+
+### Dunder methods
+Control Object creation
+- `__new__` - called before the object is created
+- `__init__` - called after the object is created
+
+`__new__` creates empty object and `__init__` initializes it.
+
+Introspection
+- `__dir__` - called when dir() is called on the object, print all attributes of the object
+
+Attribute access
+- `__getattr__` - called when an attribute is not found in the usual places
+- `__setattr__` - called when an attribute is set
+- `__delattr__` - called when an attribute is deleted
+- `__getattribute__` - called when an attribute is accessed
+
+## Walkaround
+
 Fast walkaround of Python.
 
 - variables
