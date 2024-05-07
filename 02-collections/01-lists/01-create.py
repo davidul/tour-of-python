@@ -1,3 +1,4 @@
+# Create a list
 # empty list
 L = list()
 E = []
@@ -25,25 +26,9 @@ m = [
     [4,5,6],
     [7,8,9]
 ]
+# end create
 
-# List Methods
-len(L1)
-# Adding
-L1.append(6)
-L1.insert(3, 100)
-print(L1)
-L1.extend([10,100,1000])
-print(L1)
 
-# Removing
-p = L1.pop() # default last
-print(p)
-L1.pop(4)
-print(L1)
-L1.remove(1) # remove first occurence of value
-print(L1)
-L1.clear()
-print(L1)
 
 L1.extend([1,2,3,4,5])
 # value, start, stop

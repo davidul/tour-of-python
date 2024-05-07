@@ -1,5 +1,5 @@
 # create new dictionary 
-my_dict = {'key1':'value1','key2':'value2'}
+my_dict = {'key1': 'value1', 'key2': 'value2'}
 print(my_dict)
 print(my_dict['key1'])
 
@@ -40,16 +40,16 @@ for key, value in items:
 # in operator
 print('key1' in my_dict)
 
-# len
+# len - number of key-value pairs
 print(len(my_dict))
 
-# pop
+# pop - remove and return value of key
 print(my_dict.pop('key2'))
 
-# popitem
+# popitem - remove and return last key-value pair
 print(my_dict.popitem())
 
-# clear
+# clear - remove all key-value pairs
 my_dict.clear()
 print(my_dict)
 
